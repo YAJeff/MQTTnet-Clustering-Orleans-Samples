@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleNodeTypeSample", "SingleNodeTypeSample\SingleNodeTypeSample.csproj", "{C5BDD853-FEEA-4BF2-A313-BCCCFABF7935}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet", "..\..\..\MQTTnet\Source\MQTTnet\MQTTnet.csproj", "{F3E1703D-1E67-4CC6-994D-8B118F66ED81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQTTnet Libraries", "MQTTnet Libraries", "{56CDF6FB-846B-48B0-AF58-5793076736A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.AspNetCore", "..\..\..\MQTTnet\Source\MQTTnet.AspnetCore\MQTTnet.AspNetCore.csproj", "{B878D20B-1820-46BC-880B-AC32CF11EB25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.Clustering.Orleans.Client", "..\..\MQTTnet\Source\MQTTnet.Clustering.Orleans.Client\MQTTnet.Clustering.Orleans.Client.csproj", "{000BFA28-A673-4A09-931B-94D51BFC131B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.Clustering.Orleans.Interfaces", "..\..\MQTTnet\Source\MQTTnet.Clustering.Orleans.Interfaces\MQTTnet.Clustering.Orleans.Interfaces.csproj", "{4A2743B9-4B7B-4A42-95FE-1CB8760F10B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTnet.Clustering.Orleans.Server", "..\..\MQTTnet\Source\MQTTnet.Clustering.Orleans.Server\MQTTnet.Clustering.Orleans.Server.csproj", "{97FCB43E-3F6C-4D2A-A366-F3A856DD6E6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5BDD853-FEEA-4BF2-A313-BCCCFABF7935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5BDD853-FEEA-4BF2-A313-BCCCFABF7935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5BDD853-FEEA-4BF2-A313-BCCCFABF7935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5BDD853-FEEA-4BF2-A313-BCCCFABF7935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E1703D-1E67-4CC6-994D-8B118F66ED81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E1703D-1E67-4CC6-994D-8B118F66ED81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E1703D-1E67-4CC6-994D-8B118F66ED81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E1703D-1E67-4CC6-994D-8B118F66ED81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B878D20B-1820-46BC-880B-AC32CF11EB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B878D20B-1820-46BC-880B-AC32CF11EB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B878D20B-1820-46BC-880B-AC32CF11EB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B878D20B-1820-46BC-880B-AC32CF11EB25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000BFA28-A673-4A09-931B-94D51BFC131B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000BFA28-A673-4A09-931B-94D51BFC131B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000BFA28-A673-4A09-931B-94D51BFC131B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000BFA28-A673-4A09-931B-94D51BFC131B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2743B9-4B7B-4A42-95FE-1CB8760F10B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2743B9-4B7B-4A42-95FE-1CB8760F10B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2743B9-4B7B-4A42-95FE-1CB8760F10B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2743B9-4B7B-4A42-95FE-1CB8760F10B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FCB43E-3F6C-4D2A-A366-F3A856DD6E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FCB43E-3F6C-4D2A-A366-F3A856DD6E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FCB43E-3F6C-4D2A-A366-F3A856DD6E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FCB43E-3F6C-4D2A-A366-F3A856DD6E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3E1703D-1E67-4CC6-994D-8B118F66ED81} = {56CDF6FB-846B-48B0-AF58-5793076736A8}
+		{B878D20B-1820-46BC-880B-AC32CF11EB25} = {56CDF6FB-846B-48B0-AF58-5793076736A8}
+		{000BFA28-A673-4A09-931B-94D51BFC131B} = {56CDF6FB-846B-48B0-AF58-5793076736A8}
+		{4A2743B9-4B7B-4A42-95FE-1CB8760F10B2} = {56CDF6FB-846B-48B0-AF58-5793076736A8}
+		{97FCB43E-3F6C-4D2A-A366-F3A856DD6E6A} = {56CDF6FB-846B-48B0-AF58-5793076736A8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06463163-0BEE-4591-88F7-B2F3CB4F9287}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\MQTTnet\Source\MQTTnet.Clustering.Orleans.Grains\MQTTnet.Clustering.Orleans.Grains.csproj" />
+    <ProjectReference Include="..\..\..\..\MQTTnet\Source\MQTTnet.Clustering.Orleans.Server\MQTTnet.Clustering.Orleans.Server.csproj" />
+  </ItemGroup>
+
+</Project>
